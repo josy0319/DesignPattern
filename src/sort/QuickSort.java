@@ -3,7 +3,8 @@ import java.util.*;
 
 public class QuickSort {
 	public static void quickSort(int[] arr) {
-		quickSort(arr,0,arr.length-1);
+		quickSort(arr,0,arr.length-2);
+	
 	}
 	public static void quickSort(int[] arr, int start,int end) {
 		int part2 = partition(arr,start,end);
