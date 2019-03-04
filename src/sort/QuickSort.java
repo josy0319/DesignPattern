@@ -3,7 +3,7 @@ import java.util.*;
 
 public class QuickSort {
 	public static void quickSort(int[] arr) {
-		quickSort(arr,0,arr.length-2);
+		quickSort(arr,0,arr.length-1);
 	
 	}
 	public static void quickSort(int[] arr, int start,int end) {
